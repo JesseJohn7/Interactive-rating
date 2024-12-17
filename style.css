@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 400px;
+    height:380px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(213, 19%, 18%);
+}
+
+/* .imgcon{
+    margin: 10px;
+    background-color:  hsl(217, 12%, 63%);
+    width: 40px;
+    border-radius: 30px;
+} */
+
+.star{
+    margin: 20px;
+}
+h1{
+    margin: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.container a{
+    margin: 10px;
+    padding: 4px;
+    color: whitesmoke;
+    margin-left: 25px;
+    font-size: 15px;
+}
+#SubmitBtn{
+    width: 100px;
+    font-weight: bold;
+}
+
+#rating-buttons{
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.rating-btn{
+    background-color: hsl(211, 18%, 23%);
+    border-radius: 40px;
+    border: none;
+    width: 50px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rating-btn:hover{
+    background-color:hsl(25, 97%, 53%) ;
+}
+.rating-btn.active{
+    background-color: white;
+    color: black;
+}
+
+#SubmitBtn{
+    margin: 30px auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(216, 12%, 8%);
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.containers{
+    border: 3px solid red;
+}
+
+#thankPage{
+    width: 400px;
+    height:380px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:  hsl(213, 19%, 18%);
+}
+#thankPage img{
+    margin-top: 30px;
+}
+
+#thankPage h1{
+    margin: 0;
+}
+
+.pcon{
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 20px;
+    background-color:hsl(211, 18%, 23%);
+    text-align: center;
+}
+.pcon .selected {
+    padding: 10px;
+    color:hsl(25, 97%, 53%) ;
+}
+
+.appreciate{
+    margin-left: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 14px;
+    width: 350px;
+}

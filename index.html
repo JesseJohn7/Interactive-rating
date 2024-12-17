@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Original design -->
+
+  <div class="container" id="rating-page">
+    <div class="imgcon">
+      <img src="./images/icon-star.svg" alt="" width="30px" class="star">
+    </div>
+    <h1>How did we do?</h1>
+    <a>Please let us know how we did with your support request.All feedback is appreciated to help us improve our offering!</a>
+
+    <!-- RATING BUTTONS -->
+    <div id="rating-buttons">
+      <button class="rating-btn" data-rating = "1" >1</button>
+      <button class="rating-btn" data-rating = "2">2</button>
+      <button class="rating-btn" data-rating = "3">3</button>
+      <button class="rating-btn" data-rating = "4">4</button>
+    </div>
+
+    <!-- Submit button -->
+    <button id="SubmitBtn">SUBMIT</button>
+  </div>
+
+
+
+  <div  id="thankPage"  style="display: none;">
+    <img src="./images/illustration-thank-you.svg" width="180px"  alt="">
+    <div class="pcon">
+      <p class="selected">You selected 4 out of 5 </p>
+    </div>
+    
+    <h1>Thank You!</h1>
+
+    <p class="appreciate">We appreciate you taking time to give us a rating.If you ever need more support,don't hestite to stay in touch! </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
